@@ -33,7 +33,7 @@ public class AppController {
             List<GHRepository> repos = user.listRepositories().toList();
 
             List<Record> result = new ArrayList<>();
-            int repoLimit = 5;
+            int repoLimit = 10;
             int count = 0;
 
             for (GHRepository repo : repos) {
